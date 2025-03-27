@@ -1,0 +1,382 @@
+<mxfile host="65bd71144e">
+    <diagram id="naaXW-yY1Ai5LN5JHK91" name="Página-1">
+        <mxGraphModel dx="3720" dy="2320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="30" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="import pygame&lt;div&gt;from random import randint&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="7" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;ANCHURA_VENTANA = 600&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font&gt;&lt;span&gt;ALTURA_VENTANA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;600&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font&gt;&lt;span&gt;COLOR_FONDO&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;255&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;255&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;250&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;pygame&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;set_mode&lt;/span&gt;&lt;span&gt;((&lt;/span&gt;&lt;span&gt;ALTURA_VENTANA&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;ANCHURA_VENTANA&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-85" y="270" width="630" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font&gt;# Variables COHETE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;210&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;YY_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;300&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;ALTURA_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;32&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;ANCHURA_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;32&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;MOVIMIENTO_XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font&gt;# Variables PLANETAS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;XX_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;randint&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;30&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;130&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;ALTURA_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;32&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;ANCHURA_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;32&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;XX_ENTRE_PLANETAS&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;350&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;YY_ENTRE_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;125&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;span&gt;VELOCIDAD_PLANETAS&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="500" width="310" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;# Puntos y otros&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PUNTOS&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;FUENTE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;pygame&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;font&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;Font&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;None&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;24&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;MARCADOR&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;FUENTE&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;render&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;0 puntos&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;255&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="900" width="450" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="1360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;while not PARAR_JUEGO&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="132.5" y="1169" width="205" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="235" y="1430" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="18" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="1730"/>
+                            <mxPoint x="235" y="1730"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="18" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="308" y="1730"/>
+                            <mxPoint x="235" y="1730"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="event.type == pygame.keydown" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="162.5" y="1570" width="145" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="378" y="1840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="21" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="1990" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="1840"/>
+                            <mxPoint x="120" y="1990"/>
+                            <mxPoint x="235" y="1990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="even.key == pygame.k_escape" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="162.5" y="1780" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="2030" as="targetPoint"/>
+                        <mxPoint x="369.090909090909" y="1960" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="1990"/>
+                            <mxPoint x="235" y="1990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="para juego = true" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="307.5" y="1890" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="25" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="30" y="2080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="25" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="354" y="2080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="if event.key == pygame.k_RIGHT" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="175" y="2020" width="130" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="2330.160193810096" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="2250"/>
+                            <mxPoint x="240" y="2250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="movimiento_xx_cohete = 4" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-50" y="2110" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="29" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="475" y="2160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="2250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="280" y="2160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="event.type == pygame.keyup" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="2110" width="107.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="2330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="475" y="2250"/>
+                            <mxPoint x="240" y="2250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;movimiento_xx_cohete = -4&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="2180" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="2405"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="if xx_cohete &amp;lt; -10 or xx_cohete &amp;gt; altura_ventana:" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="132.5" y="2330" width="210" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="1483.3333740234375" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="2570"/>
+                            <mxPoint x="200" y="2570"/>
+                            <mxPoint x="200" y="2910"/>
+                            <mxPoint x="-70" y="2910"/>
+                            <mxPoint x="-70" y="1483"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="parar_juego = True" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="2450" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="2570" as="sourcePoint"/>
+                        <mxPoint x="270" y="2620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="2570"/>
+                            <mxPoint x="80" y="2405"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;in&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;pygame&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;get&lt;/span&gt;&lt;span&gt;():&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1360" width="280" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="2860" as="sourcePoint"/>
+                        <mxPoint x="200" y="2980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="67" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;fill&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;COLOR_FONDO&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;blit&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;IMG_PLANETA_IZQUIERDO&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;XX_PLANETA&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;blit&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;IMG_PLANETA_DERECHO&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;XX_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_ENTRE_PLANETAS&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;YY_ENTRE_PLANETA&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="2980" width="960" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="69" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;VELOCIDAD_PLANETAS&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="3160" width="385" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="71" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-118.74499999999989" y="3375" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-215" y="3375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="71">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="3870" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="3370"/>
+                            <mxPoint x="450" y="3780"/>
+                            <mxPoint x="220" y="3780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ANCHURA_VENTANA&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;rounded=0;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="51.88" y="3260" width="301.25" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="3870" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="3780"/>
+                            <mxPoint x="220" y="3780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;XX_PLANETA = randint(55, 150)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;25&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;PUNTOS&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;PUNTOS&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;MARCADOR&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;FUENTE&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;render&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;str&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;PUNTOS&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot; puntos&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;255&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-540" y="3460" width="650" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="78" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;# PLANETA IZQUIERDO COLISION&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PUNTO_INFERIOR_DERECHO_PRIMER_PLANETA_X&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ALTURA_PLANETA&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PUNTO_INFERIOR_DERECHO_PRIMER_PLANETA_Y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ANCHURA_PLANETA&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="3870" width="628.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="79" target="83">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="550" y="4125" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="530" y="4125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 9px; color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PUNTO_INFERIOR_DERECHO_PRIMER_PLANETA_X&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="4010" width="290" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="83" target="84">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="853" y="4275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PUNTO_INFERIOR_DERECHO_PRIMER_PLANETA_Y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;YY_COHETE&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="4160" width="325" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="84" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1220" y="4455"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;PUNTO_INFERIOR_DERECHO_PRIMER_PLANETA_Y &amp;lt; YY_COHETE + ANCHURA_COHETE:&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="4320" width="480" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="4770" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1220" y="4640"/>
+                            <mxPoint x="390" y="4640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PARAR_JUEGO&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;True&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="4500" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="79">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="4640" as="sourcePoint"/>
+                        <mxPoint x="60" y="4120" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="4640"/>
+                            <mxPoint y="4125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="90" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PUNTO_INFERIOR_IZQUIERDO_SEGUNDO_PLANETA_X&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_ENTRE_PLANETAS&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PUNTO_INFERIOR_IZQUIERDO_SEGUNDO_PLANETA_Y&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;YY_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; \&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;YY_ENTRE_PLANETA&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ANCHURA_PLANETA&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="4760" width="640" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="91" target="95">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="915" y="5000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="838" y="5000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;XX_COHETE + ALTURA_COHETE &amp;gt; PUNTO_INFERIOR_IZQUIERDO_SEGUNDO_PLANETA_X:&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="162.5" y="4880" width="475" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="95" target="96">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1350" y="5160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;PUNTO_INFERIOR_IZQUIERDO_SEGUNDO_PLANETA_Y&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="5030" width="475" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="96" target="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1705" y="5320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 11px; color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ANCHURA_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;PUNTO_INFERIOR_IZQUIERDO_SEGUNDO_PLANETA_Y&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="5200" width="475" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="98">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="5610" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1705" y="5520"/>
+                            <mxPoint x="380" y="5510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;PARAR_JUEGO&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;True&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="5390" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="endArrow=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="5510" as="sourcePoint"/>
+                        <mxPoint x="160" y="5000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="60" y="5512"/>
+                            <mxPoint x="60" y="5000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="edgeStyle=none;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="102" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;MOVIMIENTO_XX_COHETE&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;blit&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;MARCADOR&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;580&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;PANTALLA&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;blit&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;IMG_COHETE&lt;/span&gt;&lt;span&gt;, (&lt;/span&gt;&lt;span&gt;XX_COHETE&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;YY_COHETE&lt;/span&gt;&lt;span&gt;))&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="5610" width="470" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;pygame&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;display&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;update&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="277.5" y="5840" width="215" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
